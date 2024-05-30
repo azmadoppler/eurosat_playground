@@ -173,3 +173,4 @@ Zone.Identifier
 *.pt
 *.pth
 *.h5
+/datasets
