@@ -174,3 +174,4 @@ Zone.Identifier
 *.pth
 *.h5
 /datasets
+/tutorial_files
