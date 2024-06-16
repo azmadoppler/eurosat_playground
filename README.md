@@ -4,13 +4,13 @@
 # Main Tutorial File
 - 
 
-### [Using Convolutional Neural Network to performs classification on MultiBand dataset]("Train_all_multiband_cnn.ipynb")
+### [Using Convolutional Neural Network to performs classification on MultiBand dataset](Train_all_multiband_cnn.ipynb)
 - Since data need to be proprocess with multiple band style, "Dataset" module for custom dataset is introduced here
 - Learn how to use Rasterio to read multiband satelite data
 - 
 
 
-### [Using Vision Transformer to performs classification on RGB dataset]("")
+### [Using Vision Transformer to performs classification on RGB dataset](Train_rgb_vit.ipynb)
 - Image can be loaded directly using ImageFolder 
 - 
 
