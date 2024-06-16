@@ -168,11 +168,15 @@ __pycache__/
 /data/
 .ipynb_checkpoints/
 Zone.Identifier
+.trash/
+
 
 # weight file
 *.pt
 *.pth
 *.h5
+
+/playground
 /datasets
 /environment_tutorial
 /weights
