@@ -1,7 +1,7 @@
 FROM nvidia/cuda:12.2.2-devel-ubuntu20.04
 
 ENV DEBIAN_FRONTEND=noninteractive
-ENV PATH="/home/hoge/.local/bin:${PATH}"
+ENV PATH="/home/$USER/.local/bin:${PATH}"
 # タイムゾーン設定
 ENV SHELL=/bin/bash
 ENV TZ=Asia/Tokyo

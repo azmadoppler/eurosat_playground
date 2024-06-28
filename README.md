@@ -1,11 +1,12 @@
 # Simple tutorial(?) for EUROSat dataset
 
+In this repository, the simple tutorial of running EUROSat on 
 
 # Step 0: Installation
-- Two easy ways to run the Deep Learning on your server (Reference Table below for which you want)
-    - Installing using Conda [Japanese]() / [English](/test_program/)
-    - Installing using Docker [Japanese]() / [English](/test_program/)
-    - __Personal Opinion__ : Conda if you solo-ing the project and have no interest in anything other than Data Science, else Docker for Development experience both as group and individual. 
+- Two easy ways to run the Deep Learning on your local machine/server  (Reference Table below for which you want)
+    - Installing using __Conda__ [Japanese]() / [English](/test_program/)
+    - Installing using __Docker__ [Japanese]() / [English](/test_program/)
+    - __Personal Opinion__ : Conda if you do the project by yourself and have no interest in anything other than Data Science, else Docker for Development experience both as group and individual. 
 
 | Conda                                                                                | Docker                                                                           |
 |--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
@@ -19,21 +20,25 @@ capabilities. |
 
 
 ## Step 1: Prepare the Datasets
-- EUROSat datasets can be found in its [Originakl Site](https://github.com/phelber/EuroSAT) 
+- Download EUROSat datasets, which can be found in its [Original Site](https://github.com/phelber/EuroSAT)
 
-## [Using Convolutional Neural Network to performs classification on MultiBand dataset](Train_all_multiband_cnn.ipynb)
+## Step 2: Running the file
+- If the development environment is installed correctly, 
+
+### [Using Convolutional Neural Network to performs classification on MultiBand dataset](Train_all_multiband_cnn.ipynb)
 - Since data need to be proprocess with multiple band style, "Dataset" module for custom dataset is introduced here
 - Learn how to use Rasterio to read multiband satelite data
+
+
+### [Using Vision Transformer to performs classification on RGB dataset](Train_rgb_vit.ipynb)
+- Image can be loaded directly using __ImageFolder__ 
 - 
 
 
-## [Using Vision Transformer to performs classification on RGB dataset](Train_rgb_vit.ipynb)
-- Image can be loaded directly using ImageFolder 
-- 
 
+## Note 
 
-
-# Note 
+### Multiband from the EUROSat paper
 - B01 - Aerosols 60 443
 - B02 - Blue 10 490
 - B03 - Green 10 560
