@@ -4,8 +4,8 @@ In this repository, the simple tutorial of running EUROSat on
 
 # Step 0: Installation
 - Two easy ways to run the Deep Learning on your local machine/server  (Reference Table below for which you want)
-    - Installing using __Conda__ [Japanese]() / [English](/test_program/)
-    - Installing using __Docker__ [Japanese]() / [English](/test_program/)
+    - Installing using __Conda__ (Detailed Tutorial Under Construct) [Japanese](https://techno-road.com/blog/?content=6) / [Video Guide(English)](https://www.youtube.com/watch?v=vOD3kSwpDFY)
+    - Installing using __Docker__ [Japanese](https://github.com/azmadoppler/mnist_docker_sample) / [English](https://github.com/azmadoppler/mnist_docker_sample_EN)
     - __Personal Opinion__ : Conda if you do the project by yourself and have no interest in anything other than Data Science, else Docker for Development experience both as group and individual. 
 
 | Conda                                                                                | Docker                                                                           |
@@ -15,17 +15,24 @@ In this repository, the simple tutorial of running EUROSat on
 | Good for ensuring the same setup on __your own computer__ .                               | Ensures the exact same setup on __any computer__ with Docker installed.              |
 | Perfect for data science and machine learning projects.                             | Perfect for deploying apps and services reliably.                                |
 | Lower computer resource usage, sharing system resources.                             | Higher resource usage, but better isolation of apps.                             |
-| Less complex, ideal for those needing specific programming tools.         | More complex, ideal for creating isolated, consistent environments.              |
+| Less complex, ideal for those needing specific programming tools.         | More complex, allowing installation of Kernel library not just Python library              |
 capabilities. |
 
 
 ## Step 1: Prepare the Datasets
 - Download EUROSat datasets, which can be found in its [Original Site](https://github.com/phelber/EuroSAT)
+- Create new folder called datasets and extract the dataset 
+    - Git does not allow hosting the whole dataset so you have to do this process yourself
+- Additionally, you can also read the __EUROSAT paper__  [Paper Link](euro_sat_original_paper.pdf)
 
 ## Step 2: Running the file
-- If the development environment is installed correctly, 
+- If the development environment is installed correctly, the [MNIST Sample Program](MNIST_sample.ipynb) should be able to execute.
 
-### [Using Convolutional Neural Network to performs classification on MultiBand dataset](Train_all_multiband_cnn.ipynb)
+### [Exploratory Data Analysis on EUROSat Dataset](EDA_all_band.ipynb)
+- You can use this notebook to view the nature of EUROSat dataset
+
+### [Using Convolutional Neural Network to performs classification on EUROSAT MultiBand dataset](Train_all_multiband_cnn.ipynb)
+- 
 - Since data need to be proprocess with multiple band style, "Dataset" module for custom dataset is introduced here
 - Learn how to use Rasterio to read multiband satelite data
 
