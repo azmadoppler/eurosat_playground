@@ -1,11 +1,14 @@
 # Simple tutorial(?) for EUROSat dataset
 
-In this repository, the simple tutorial of running EUROSat on 
+In this repository, the simple tutorial of running Classification task on EUROSat dataset using PyTorch.
 
 # Step 0: Installation
 - Two easy ways to run the Deep Learning on your local machine/server  (Reference Table below for which you want)
     - Installing using __Conda__ (Detailed Tutorial Under Construct) [Japanese](https://techno-road.com/blog/?content=6) / [Video Guide(English)](https://www.youtube.com/watch?v=vOD3kSwpDFY)
+        - You can create Conda environment using current project package with command ```conda env create -f ENV.yaml```
+        - Then, activate the environment using ```conda activate eurosat```
     - Installing using __Docker__ [Japanese](https://github.com/azmadoppler/mnist_docker_sample) / [English](https://github.com/azmadoppler/mnist_docker_sample_EN)
+        - Please refer to full guide for Docker installation
     - __Personal Opinion__ : Conda if you do the project by yourself and have no interest in anything other than Data Science, else Docker for Development experience both as group and individual. 
 
 | Conda                                                                                | Docker                                                                           |
@@ -27,19 +30,20 @@ capabilities. |
 
 ## Step 2: Running the file
 - If the development environment is installed correctly, the [MNIST Sample Program](MNIST_sample.ipynb) should be able to execute.
+- This project is in __Jupyter Notebook format__, Jupyter Notebook is the tool for writing Python code with ability to debug and explore any variable. More about Jupyter notebook can be read [Here](Jupyter_Notebook_CheatSheet.pdf)
 
 ### [Exploratory Data Analysis on EUROSat Dataset](EDA_all_band.ipynb)
 - You can use this notebook to view the nature of EUROSat dataset
+- Example of how to use Pandas and Numpy library to read the dataset
 
 ### [Using Convolutional Neural Network to performs classification on EUROSAT MultiBand dataset](Train_all_multiband_cnn.ipynb)
-- 
-- Since data need to be proprocess with multiple band style, "Dataset" module for custom dataset is introduced here
-- Learn how to use Rasterio to read multiband satelite data
+- Since data need to be proprocess with multiple band style, __Dataset__ module for custom dataset is introduced here
+- Learn how to use RasterIO library to read multiband satelite data
 
 
 ### [Using Vision Transformer to performs classification on RGB dataset](Train_rgb_vit.ipynb)
-- Image can be loaded directly using __ImageFolder__ 
-- 
+- Image can be loaded directly using __ImageFolder__ module instead since it already came in RGB format
+- The overall process is simpler and easier to read 
 
 
 
