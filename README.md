@@ -18,8 +18,7 @@ In this repository, the simple tutorial of running Classification task on EUROSa
 | Good for ensuring the same setup on __your own computer__ .                               | Ensures the exact same setup on __any computer__ with Docker installed.              |
 | Perfect for data science and machine learning projects.                             | Perfect for deploying apps and services reliably.                                |
 | Lower computer resource usage, sharing system resources.                             | Higher resource usage, but better isolation of apps.                             |
-| Less complex, ideal for those needing specific programming tools.         | More complex, allowing installation of Kernel library not just Python library              |
-capabilities. |
+| Less complex, ideal for those needing specific programming tools.         | More complex, allowing installation of Kernel library not just Python library              |\
 
 
 ## Step 1: Prepare the Datasets
