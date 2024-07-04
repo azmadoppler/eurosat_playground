@@ -1,8 +1,8 @@
-# Simple tutorial(?) for EUROSat dataset
+# Simple tutorial for EUROSat dataset
 
 In this repository, the simple tutorial of running Classification task on EUROSat dataset using PyTorch.
 
-# Step 0: Installation
+## Step 0: Installation
 - Two easy ways to run the Deep Learning on your local machine/server  (Reference Table below for which you want)
     - Installing using __Conda__ (Detailed Tutorial Under Construct) [Japanese](https://techno-road.com/blog/?content=6) / [Video Guide(English)](https://www.youtube.com/watch?v=vOD3kSwpDFY)
         - You can create Conda environment using current project package with command ```conda env create -f ENV.yaml```
