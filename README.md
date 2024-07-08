@@ -48,6 +48,11 @@ In this repository, the simple tutorial of running Classification task on EUROSa
 
 ## Note 
 
+### TODO (7/8)
+- Try working with internal Datasets instead of Open datasets
+- Explore Segmentation task next after finishing up the README  
+- Moving this repos to Github Organization
+
 ### Multiband from the EUROSat paper
 - B01 - Aerosols 60 443
 - B02 - Blue 10 490
@@ -62,3 +67,4 @@ In this repository, the simple tutorial of running Classification task on EUROSa
 - B10 - Cirrus 60 1375
 - B11 - SWIR 1 20 1610
 - B12 - SWIR 2 20 2190
+
