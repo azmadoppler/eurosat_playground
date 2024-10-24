@@ -52,6 +52,8 @@ In this repository, the simple tutorial of running Classification task on EUROSa
 - Try working with internal Datasets instead of Open datasets
 - Explore Segmentation task next after finishing up the README  
 - Moving this repos to Github Organization
+- Mean IoU: 0.7388
+- Mean Pixel Accuracy: 0.9886
 
 ### Multiband from the EUROSat paper
 - B01 - Aerosols 60 443
